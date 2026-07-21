@@ -1,0 +1,13 @@
+header{
+    background-color: #d62525;
+    color: #fff;
+}
+header > h1{
+    display: inline-block;
+}
+header > nav{
+    display: inline-block;
+}
+header > nav > ul > li {
+    display: inline-block;
+}
