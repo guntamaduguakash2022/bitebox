@@ -26,3 +26,6 @@ a.no-decoration {
 .hover-yellow:hover {
     color: yellow;
 }
+img.h-100 {
+    height: 50%;
+}
