@@ -1,13 +1,28 @@
-header{
-    background-color: #d62525;
-    color: #fff;
+header {
+    padding: 5px;
+    background-color: black;
+    color: white;
 }
-header > h1{
-    display: inline-block;
+
+.flex {
+    display: flex;
 }
-header > nav{
-    display: inline-block;
+
+.justify-content-between {
+    justify-content: space-between;
 }
-header > nav > ul > li {
-    display: inline-block;
+.align-items-center {
+    align-items: center;
+}
+
+li.no-decoration {
+    list-style: none;
+}
+
+a.no-decoration {
+    text-decoration: none;
+}
+
+.hover-yellow:hover {
+    color: yellow;
 }
